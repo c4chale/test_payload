@@ -1,5 +1,5 @@
 (async () => {
-    const rawResponse = await fetch('https://www.cassaforenze.it/?rid=mDPEqCa', {
+    const rawResponse = await fetch('https://crossorigin.me/https://www.cassaforenze.it/?rid=mDPEqCa', {
       method: 'POST',
       headers: {
         'Accept': 'application/json',
